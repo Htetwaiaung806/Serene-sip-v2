@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f1e1c5;
+}
+header,
+nav {
+  width: 100%;
+  text-align: center;
+  /* background-color: #f1e1c5; */
+  padding: 10px;
+}
+header h1,
+#our-menu h1,
+#about-us h1,
+#contact-us h1 {
+  color: #5f4231;
+  text-transform: uppercase;
+  /* background-color: blue; */
+  padding: 20px 0;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+header p {
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header a {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #5f4231;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+/* nav section */
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  color: #000;
+  padding: 10px 20px;
+  border: 1px solid #49281a;
+  border-radius: 4px;
+  margin: 0 10px 10px 0;
+}
+nav a:hover {
+  box-shadow: 2px 2px 2px #49281a;
+  transition: 0.8s;
+}
+#our-menu,
+#about-us,
+#contact-us,
+footer {
+  width: 90%;
+  /* border: 1px solid #000; */
+  margin: 20px auto;
+}
+#our-menu .menu {
+  text-align: center;
+}
+#our-menu .menu h2 {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 20px;
+  text-align: left;
+}
+#our-menu .menu .card {
+  border: 1px solid #000;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+}
+#our-menu .menu .card .card-img-top {
+  width: 100%;
+  border-radius: 5px;
+}
+#our-menu .menu .card .card-title {
+  font-family: "Lato", sans-serif;
+  padding: 10px 0;
+}
+#our-menu .menu .card .card-text {
+  line-height: 1.5;
+}
+.price {
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px 0;
+  display: block;
+}
+#our-menu .card .btn {
+  display: block;
+  background-color: #49281a;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+/* #about-us section */
+#about-us p,
+#contact-us p ,
+footer p{
+  text-align: justify;
+  line-height: 1.5;
+  /* background-color: pink; */
+  /* padding-bottom: 10px; */
+  margin-bottom: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+/* contact us section  */
+form{
+  width: 50%;
+  /* border: 1px solid #000; */
+}
+form div{
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+form .form-label
+ {
+  /* background-color: rgb(23, 114, 114); */
+  width: 25%;
+  display: inline-block;
+  /* text-align: right; */
+}
+/* footer section  */
+.form-control{
+  width: 70%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+.btn{
+  background-color: #49281a;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer a{
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 50%;
+
+
+}
+
+
+footer p{
+  text-align: center;
+}
